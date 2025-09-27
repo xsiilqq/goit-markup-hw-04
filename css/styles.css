@@ -167,6 +167,7 @@ justify-content: flex-end;
 display: flex;
 align-items: center;
 gap: 40px;
+
 }
 
 .contact-link:hover,
@@ -190,7 +191,7 @@ gap: 40px;
     text-decoration: none;
     font-style: normal;
     padding-top: 24px;
-        padding-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 /* hero styles */
@@ -209,34 +210,42 @@ background-size:cover
 .hero-title {
     max-width: 496px;
     font-family: var(--font-family);
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07143;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: var(--white);
-        margin-bottom: 48px;
-        margin-right: auto;
-        margin-left: auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
         
 }
 .main-button {
     display: block;
-border-radius: 4px;
+    border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: var(--iris);
-        font-family: var(--font-family);
-            font-weight: 500px;
-            font-size: 16px;
-            line-height: 1.5px;
-            letter-spacing: 0.04em;
-            color: var(--white);
-margin-right: 480px;
-margin-left: 480px;
-            border: none;
+    background: var(--iris);
+    font-family: var(--font-family);
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    margin-right: 480px;
+    margin-left: 480px;
+    border: none;
+    transition: 250ms;
+}
+
+
+.main-button:hover,
+.main-button:focus {
+background-color:#404BBF;
+color: #FFFFFF;
 }
 
 /* qualities styles */
@@ -277,6 +286,23 @@ font-family: var(--font-family);
     color: var(--slate);
 }
 
+
+.qualities-icon {
+  margin: 24px 100px;
+}
+
+
+.quality-item .container-icon {
+  width: 264px;                 
+  height: 112px;              
+  background-color: var(--cloud);     
+  border: 1px solid var(--light-slate);     
+  border-radius: 4px;    
+  margin-bottom: 8px;
+}
+
+
+
 /* team styles */
 
 .team-section {
@@ -285,9 +311,7 @@ font-family: var(--font-family);
     padding-bottom: 120px;
 }
 
-.team-section .container {
 
-}
 
 .team-title {
     font-weight: 700;
@@ -309,7 +333,7 @@ padding-bottom: 116px;
 border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px;
 width: 264px;
-height: 380px;
+height: 428px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: var(--white);
 width: calc((100% - 3 * 24px) / 4);
@@ -339,6 +363,86 @@ width: calc((100% - 3 * 24px) / 4);
         text-align: center;
         color: var(--slate);
 }
+
+
+.container-social{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.social-icon1 {
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/instagram\ 2.svg);
+background-size: 16px 16px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;
+}
+.social-icon1:hover,
+.social-icon1:focus{
+    background-color: var(--ocean);
+}
+
+
+.social-icon2 {
+display: block;
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/twitter\ 1.svg);
+background-size: 16px 16px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;
+}
+.social-icon2:hover,
+.social-icon2:focus{
+    background-color: var(--ocean);
+}
+
+
+.social-icon3 {
+display: block;
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/facebook\ 1.svg);
+background-size: 16px 16px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;
+}.social-icon3:hover,
+.social-icon3:focus{
+    background-color: var(--ocean);
+}
+
+
+.social-icon4 {
+display: block;
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/linkedin\ 1.svg);
+background-size: 16px 16px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;
+}
+.social-icon4:hover,
+.social-icon4:focus{
+    background-color: var(--ocean);
+}
+
+
 
 /* portfolio styles */
 
@@ -433,4 +537,14 @@ font-family: var(--second-family);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--cloud);
+}
+
+.container-social-media {
+    display: flex;
+    
+}
+
+
+.social-media-text {
+    display: flex;
 }

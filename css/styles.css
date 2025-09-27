@@ -29,7 +29,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-я
+
+
 /* RESET */
 h1,
 h2,
@@ -111,7 +112,7 @@ ul {
 
 .logo-header {
     display: flex;
-font-family: var(--second-family);
+    font-family: var(--second-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -530,7 +531,7 @@ font-family: var(--second-family);
 }
 
 .footer-text {
-    margin-right: 864px;
+    max-width: 264px;
     font-family: var(--font-family);
         font-weight: 400;
         font-size: 16px;
@@ -539,12 +540,88 @@ font-family: var(--second-family);
         color: var(--cloud);
 }
 
-.container-social-media {
-    display: flex;
-    
-}
 
 
 .social-media-text {
-    display: flex;
+color: #FFFFFF;
+
 }
+
+.container-social-icon {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+    margin-bottom: 32px;    
+}
+
+.container-social-icon .social-media1 {
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/instagram\ 2.svg);
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;
+}
+.social-media1:hover,
+.social-media1:focus{
+    background-color: var(--green);
+}
+
+
+.container-social-icon .social-media2 {
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/twitter\ 1.svg);
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;   
+}
+.social-media2:hover,
+.social-media2:focus{
+    background-color: var(--green);
+}
+
+
+
+.container-social-icon .social-media3 {
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/facebook\ 1.svg);
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;    
+}
+.social-media3:hover,
+.social-media3:focus{
+    background-color: var(--green);
+}
+
+
+
+.container-social-icon .social-media4 {
+background-color: var(--iris);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background-image: url(../icons.svg/linkedin\ 1.svg);
+background-size: 24px 24px;
+background-repeat: no-repeat;
+background-position: center;
+transition: 250ms;
+}
+.social-media4:hover,
+.social-media4:focus{
+    background-color: var(--green);
+}
+

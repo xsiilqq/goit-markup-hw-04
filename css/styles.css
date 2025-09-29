@@ -606,7 +606,7 @@ color: var(--cloud);
 }
 
 .footer-left {
-    margin-right: 120px:;
+    margin-right: 120px;
 }
 
 
@@ -616,7 +616,6 @@ color: var(--cloud);
    margin: 0 auto;
   flex-direction: row;
   justify-content: flex-start;
-  gap: 120px;
 }
 
 
@@ -630,7 +629,6 @@ font-family: var(--second-family);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    margin-bottom: 16px;
 }
 
 .footer-logo-text {
@@ -641,6 +639,8 @@ font-family: var(--second-family);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--cloud);
+        font-weight: 500;
+         margin-bottom: 16px;
 }
 
 
@@ -664,6 +664,10 @@ font-family: var(--second-family);
     
 }
 
+
+.social-footer {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+}
 
 .container-social-icon .social-media-text {
 color: #FFFFFF;

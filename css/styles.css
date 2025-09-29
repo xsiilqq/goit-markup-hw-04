@@ -375,6 +375,7 @@ font-family: var(--font-family);
 
 .qualities-icon {
   margin: 24px 100px;
+  
 }
 
 
@@ -386,6 +387,9 @@ font-family: var(--font-family);
   border: 1px solid var(--light-slate);     
   border-radius: 4px;    
   margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -466,11 +470,11 @@ width: calc((100% - 3 * 24px) / 4);
 
 
 .team-link {
-     display: flex;
+display: flex;
   align-items: center;
-  justify-content: center;
   gap: 24px;
   margin-top: 8px;
+justify-content: center;
 }
 
 
@@ -491,7 +495,7 @@ width: calc((100% - 3 * 24px) / 4);
 
 .social-media:hover,
 .social-media:focus{
-    background-color: var(--ocean);
+    background-color: #404bbf;
 }
 
 

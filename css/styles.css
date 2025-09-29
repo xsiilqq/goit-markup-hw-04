@@ -440,6 +440,7 @@ height: 428px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: var(--white);
 width: calc((100% - 3 * 24px) / 4);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -628,6 +629,7 @@ color: var(--cloud);
 
 .footer-left {
     margin-right: 120px;
+    align-items: baseline,
 }
 
 

@@ -482,6 +482,7 @@ display: flex;
   gap: 24px;
   margin-top: 8px;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 
@@ -498,9 +499,6 @@ justify-content: center;
   transition: 250ms;
 }
 
-.social-item{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
 
 .social-media:hover,
 .social-media:focus{
@@ -629,7 +627,7 @@ color: var(--cloud);
 
 .footer-left {
     margin-right: 120px;
-    align-items: baseline,
+    
 }
 
 
@@ -639,6 +637,7 @@ color: var(--cloud);
    margin: 0 auto;
   flex-direction: row;
   justify-content: flex-start;
+  align-items: baseline;
 }
 
 

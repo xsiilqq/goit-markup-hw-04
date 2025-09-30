@@ -331,7 +331,6 @@ color: #FFFFFF;
 .qualities-section{
     padding-top: 120px;
         padding-bottom: 120px;
-        display: flex;
 }
 
 
@@ -378,11 +377,6 @@ font-family: var(--font-family);
 }
 
 
-
-.qualities-icon {
-  margin: 24px 100px;
-  
-}
 
 
 
@@ -660,7 +654,6 @@ font-family: var(--second-family);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--cloud);
-         margin-bottom: 16px;
 }
 
 
@@ -672,7 +665,6 @@ font-family: var(--second-family);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--cloud);
-        display: flex;
 }
 
 
@@ -689,13 +681,12 @@ font-family: var(--second-family);
 
 .container-social-icon .social-media-text {
 color: #FFFFFF;
-display: flex; 
 font-weight: 500;
 margin-bottom: 16px;
  align-items: baseline;
 }
 
-.social-media {
+.social-media1 {
     fill:  #f4f4fd;
 }
 
